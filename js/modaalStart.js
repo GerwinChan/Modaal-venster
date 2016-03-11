@@ -1,22 +1,28 @@
 $(document).ready( function() {
-    var ingangInhoud = $('#ingang').detach();
-    var halInhoud = $('#hal').detach();
-    var patroonInhoud = $('#patroon').detach();
+    var Lobby = $('#ingang').detach();
+    var Restaurant = $('#hal').detach();
+    var Hotel = $('#patroon').detach();
+    var Room = $('#roombig').detach();
     
     //events bij de thumbs
     
     $('#ingang1').on('click',function() {
-        modaalVenObj.openen({inhoud: ingangInhoud, breedte: 600});
+        hotelVenObj.openen({inhoud: Lobby, breedte: 600});
         
     });
    
      $('#hal1').on('click',function() {
-        modaalVenObj.openen({inhoud: halInhoud, breedte: 700});
+        hotelVenObj.openen({inhoud: Restaurant, breedte: 600});
         
     });
    
       $('#hotel').on('click',function() {
-        modaalVenObj.openen({inhoud: patroonInhoud, breedte: 700});
+        hotelVenObj.openen({inhoud: Hotel, breedte: 600});
+        
+    });
+    
+     $('#room').on('click',function() {
+        hotelVenObj.openen({inhoud: Room, breedte: 600});
         
     });
    
