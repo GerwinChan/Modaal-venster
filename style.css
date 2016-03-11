@@ -1,0 +1,75 @@
+#ingang1 {
+ width: 220px;   
+}
+
+#hal1 {
+ width: 220px;   
+}
+
+#hotel {
+ width: 230px;  
+    height: 145px;
+}
+
+#wrapper {
+    
+    background-color: grey;
+}
+
+.modaal-inhoud {
+    margin: 10% auto;
+    width: 600px;
+    height: 600px;
+    position: relative;
+    padding: 5px 20px 13px 20px;
+    border-radius: 10px;
+    border: 2px solid black;
+    background: white;
+    
+}
+
+.sluit-knop {
+position: absolute;
+    color: red;
+    display: block;
+    top: 0px;
+    right: 0px;
+   background-color: black;
+    
+}
+
+.modaal-venster {
+ 
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 99999;
+    pointer-events: none;
+    
+}
+
+#inside {
+    
+    width: 600px;
+    height: 480px;
+        
+}
+
+
+#halbuiten {
+    
+    width: 600px;
+    height: 480px;
+        
+}
+
+#hotelout {
+    
+    width: 600px;
+    height: 480px;
+        
+}
+
+
